@@ -1,0 +1,25 @@
+header, a{
+    margin-left: 13em;
+}
+
+#home-page-template {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1fr ;
+    margin: 10%;
+}
+
+#mann-hands{
+    width: 200px;
+    height: 200px;  
+}
+
+ /* #product-page-link{
+    display: flex;
+    flex-flow: row;
+
+}  */
+
+#intro-vid {
+    margin-left: 30%;
+}

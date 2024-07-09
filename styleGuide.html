@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide.</title>
+    <style>
+        h1, h2, h3, h4, h5, h6
+            {font-family: Arial, Helvetica, sans-serif;}
+
+        p {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+        a {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+        .grid-container {
+        display: grid;
+        grid-template-areas: 'left right';
+        grid-template-columns: repeat(2, 3fr);
+        grid-template-rows: 80px;
+        grid-gap: 5px;
+        width: 100%;
+        
+        }
+
+        .grid-left {
+        grid-area: left;
+        margin-right: 100px;
+        }
+
+        .grid-right {
+        grid-area: right;
+        }
+
+        .circle {
+        height: 50px;
+        width: 50px;
+        
+        border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-left">
+        <h1 style="text-decoration: underline;">Fonts and sizes</h1>
+        <h1>Heading 1.</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>heading 6</h6>
+
+        <p>paragraph, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit esse ipsam expedita sunt corrupti dolor magni nostrum sed laboriosam sequi deleniti, in porro id odit dolorum eveniet non. Veniam, eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sed dicta, cumque repellat reiciendis laboriosam mollitia eligendi, doloremque, obcaecati neque enim vitae nam quam possimus dolorum quas. Sit, amet minus?</p>
+        
+        <a href="#">This is a link.</a>
+    </div>
+
+    <div class="grid-right">
+        <h1 style="text-decoration: underline;">Colors</h1>
+        <div class="circle" style="background-color: #41729F;"></div><p>#41729F</p>
+        <div class="circle" style="background-color: #5885AF;"></div><p>#5885AF</p>
+        <div class="circle" style="background-color: #274472;"></div><p>#274472</p>
+        <div class="circle" style="background-color: #C3E0E5;"></div><p>#C3E0E5</p>
+    </div>
+</div>
+
+</body>
+</html>
