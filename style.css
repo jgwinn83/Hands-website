@@ -3,8 +3,7 @@ header, a{
 }
 
 #contact-body-id {
-    background-image: url(pictures/Giant-hands-holding-an-olive-tree-sculpture-1-min.jpg);
-    
+    background-image: url(pictures/Giant-hands-holding-an-olive-tree-sculpture-1-min.jpg); 
 }
 
 #home-page-template {
@@ -21,8 +20,7 @@ iframe{
 }
 
 #intro-vid {
-    margin-left: 20%;
-    
+    margin-left: 20%; 
 }
 
 .top-four-form {
@@ -67,8 +65,7 @@ form{
 }
 
 .form-block {
-    margin-top: 40px;
-    
+    margin-top: 40px; 
 }
 
 img {
@@ -97,6 +94,40 @@ img {
         margin-left: 3em;
     }
 
+    #drop-down-button {
+        background-color: #5885AF;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    #header-button-and-drop-down{ 
+        margin-left: 150px;
+        position: relative;
+        display: inline-block;
+    }
+
+    #header-bar-mobile {
+        display: none;
+        background-color: #C3E0E5;  
+    }
+
+    #header-bar-mobile a{
+        color: black;
+        padding: 10px 10px;
+        text-decoration: none;
+        display: block;
+    }
+
+    #header-bar-mobile a:hover{
+        color: #C3E0E5;
+        background-color: #274472;
+    }
+
+    #header-button-and-drop-down:hover #header-bar-mobile{
+        display: block;
+    }
+
     #home-page-template {
         display: grid;
         grid-template-columns: 1fr ;
@@ -116,8 +147,7 @@ img {
     }
     
     #intro-vid {
-        margin-left: 1%;
-        
+        margin-left: 1%;  
     } 
     
     .top-four-form,.bottom-four-form {
@@ -130,7 +160,6 @@ img {
         padding: 10px;
         border-radius: 5px;
     }
-    
     
     .product-page-div {
         margin-top: 15px;
