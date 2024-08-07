@@ -1,5 +1,17 @@
 header, a{
     margin-left: 13em;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 a{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #contact-body-id {
@@ -62,6 +74,7 @@ form{
     padding-right: 40px;
     box-shadow: 10px 10px #274472;
     border-radius: 20px;
+    
 }
 
 .form-block {
@@ -89,12 +102,38 @@ img {
     margin-top: 15px;
 }
 
+table{
+    overflow-x: auto;
+}
+
+th, td{
+    white-space: nowrap;
+}
+
+#drop-down-button{
+    display: none;
+}
+
+tr:hover {
+    background-color: #5885AF;
+}
+
+/* #bottom-row{
+    background-color: #5885AF;
+} */
+
+/* footer{
+    margin-top: auto;
+    background-color: #274472;
+} */
+
 @media screen and (max-width: 480px){
     header, a{ 
         margin-left: 3em;
     }
 
     #drop-down-button {
+        display: block;
         background-color: #5885AF;
         color: black;
         padding: 16px;
@@ -172,4 +211,7 @@ img {
         padding: 10px;
         border-radius: 5px;
     }
+
+    
+
 }
